@@ -1,2 +1,2 @@
 # linux-dslr-webcam
-How to turn your DSLR camera into a Web Cam usbale on Linux.
+How to turn your DSLR camera into a Web Cam usable on Linux.
