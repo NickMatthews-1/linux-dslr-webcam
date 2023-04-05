@@ -99,3 +99,26 @@ Once we know where the camera is we can setup the video streaming with this comm
 
 
 ```gphoto2 --stdout --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads 0 -f v4l2 /dev/video0```
+
+This will then start the camera streaming to  your comptuer and it should give an output similar to this
+
+![gphoto2 camera streaming](https://user-images.githubusercontent.com/25136516/230125172-4dd51629-6985-4f15-98b1-dc99d8d1574b.png)
+
+This now shows that your camera is streaming and can now be accessed by anything on your system that. For example VLC media player can access it as a capture device.
+
+![gphoto2 vlc capture device](https://user-images.githubusercontent.com/25136516/230126121-b01d247f-2b42-4c6f-8139-a249fd48302c.png)
+
+Which then could result in the following
+
+![gphoto2 vlc screen shot](https://user-images.githubusercontent.com/25136516/230126248-3911e81b-ace4-4115-a490-64118b35e2e1.png)
+
+### Finale
+
+You should have a functional DSLR camera for your purpose available to any piece of software on Linux that requires a camera!
+
+# Links
+Source Material: https://www.crackedthecode.co/how-to-use-your-dslr-as-a-webcam-in-linux/
+
+gphoto2 Camera compatability list: http://www.gphoto.org/proj/libgphoto2/support.php
+
+YouTube video: *coming soon*
