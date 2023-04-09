@@ -121,4 +121,4 @@ Source Material: https://www.crackedthecode.co/how-to-use-your-dslr-as-a-webcam-
 
 gphoto2 Camera compatability list: http://www.gphoto.org/proj/libgphoto2/support.php
 
-YouTube video: *coming soon*
+*[YouTube Video](https://youtu.be/ZdvRK6obieY)*
